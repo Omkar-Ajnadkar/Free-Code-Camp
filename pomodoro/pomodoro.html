@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Pomodoro</title>
+	<link rel="stylesheet" type="text/css" href="pomodoro.css">
+	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<link href="https://fonts.googleapis.com/css?family=Hind+Madurai:400,700" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Miniver" rel="stylesheet">
+ 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+	<script src="http://code.jquery.com/jquery-3.2.1.min.js" crossorigin="anonymous"></script>
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+</head>
+<body id="body">
+	<div class="mainDiv">
+		<div class="setTime">
+			<div id="breakTimeDiv">
+				<p>BREAK LENGTH</p>
+				<button type="button" id="decBreak" class="button">-</button>
+				<p id="breakTime">5</p>
+				<button type="button" id="incrBreak" class="button">+</button>
+			</div>
+			<div id="sessionTimeDiv">
+				<p>SESSION LENGTH</p>
+				<button type="button" id="decSession" class="button">-</button>
+				<p id="sessionTime">25</p>
+				<button type="button" id="incrSession" class="button">+</button>
+			</div>
+		</div>
+		<div class="timer">
+			<button type="button" id="play" class="button">
+				<i class="fa fa-play" aria-hidden="true"></i>
+			</button>
+			<br>
+			<p class="timerValue">
+				25 : 00
+			</p>
+		</div>
+	</div>
+</body>
+<script type="text/javascript" src="pomodoro.js"></script>
+</html>

@@ -1,0 +1,46 @@
+.div1{
+	text-align: center;
+	background-color: #EEEEEE;
+	font-family: 'Raleway', sans-serif;
+}
+.indexDiv{
+	display: inline-block;
+	text-align: left;
+	width:30%;
+	padding: 5px;
+	min-width: 375px;
+}
+.infoDiv{
+	display: inline-block;
+	text-align: left;
+	width: 69%;
+	padding: 5px;
+	background-color: #EEEEEE;
+	min-width: 375px;
+}
+p{
+	font-size: 1.3em;
+	padding: 5px;
+}
+.code{
+	background-color: #F7F7F7;
+	padding: 20px;
+	font-family: monospace;
+}
+hr{
+	size:5px;
+}
+.index{
+	font-size: 1.8em;
+	border-top: 2px solid black;
+	padding: 10px;
+	margin: 5px;
+}
+#navigation{
+	top:0px;
+	left:0px;
+	min-width: 400px;
+	height:100%;
+	border-right:solid;
+	border-color:rgba(0,22,22,0.4)
+}

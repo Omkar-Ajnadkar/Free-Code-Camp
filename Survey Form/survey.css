@@ -1,0 +1,41 @@
+.body{
+	background-color: #A9D7D1;
+}
+.title{
+	text-align: center;
+	font-weight: 700;
+}
+p{
+	font-size: 2.0em;
+	padding: 5px;
+}
+.background{
+	text-align: center;
+}
+.main-div{
+	font-family: 'Raleway', sans-serif;
+	margin: 10 auto 10 auto;
+	display: inline-block;
+	background-color: #FAFAFA;
+	width: 70%;
+	border-radius: 5%;
+	padding: 5px;
+}
+.label1{
+	display: inline-block;
+    text-align: right;
+    width: 40%;
+    padding: 5px;
+    vertical-align: top;
+    margin-top: 10px;
+}
+.answer{
+	display: inline-block;
+    text-align: left;
+    width: 48%;
+    padding: 5px;
+    vertical-align: top;
+}
+button{
+	padding: 10px;
+}

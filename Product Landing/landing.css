@@ -1,0 +1,67 @@
+.div1{
+	text-align: center;
+	background-color: #EEEEEE;
+}
+.div2{
+	font-family: 'Raleway', sans-serif;
+	margin: 10 auto 10 auto;
+	display: inline-block;
+	width: 80%;
+}
+input{
+	width:100%;
+	max-width: 275px;
+	padding: 5px;
+}
+.icon{
+	display: inline-block;
+	text-align: center;
+	font-size: 4.0em;
+	width: 20%;
+	padding: 5px;
+}
+.info{
+	display: inline-block;
+	text-align: center;
+	width: 50%;
+	padding: 5px;
+}
+.heading{
+	padding: 5px;
+}
+.working{
+	padding: 5px;
+}
+.pricing{
+	text-align: center;
+}
+.plans{
+	display: inline-block;
+	width: 30%;
+	border: 2px solid black;
+	padding:5px;
+	margin: 5px;
+}
+.pricingHeading{
+	width: 100%;
+	background: #DDDDDD;
+	padding: 5px;
+}
+.priceSubmit{
+	padding: 5px;
+	margin-top: 10px;
+}
+.pricingCost{
+	margin: 10px;
+	font-weight: 700;
+	font-size: 2.0em;
+}
+footer{
+	padding: 10px;
+	margin: 10px;
+}
+.footerTerms{
+	width: 20%;
+	display: inline-block;
+	font-weight: 700;
+}

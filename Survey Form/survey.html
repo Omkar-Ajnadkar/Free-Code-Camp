@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Survey Form</title>
+	<link rel="stylesheet" type="text/css" href="survey.css">
+	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<link href="https://fonts.googleapis.com/css?family=Raleway:400,700,800" rel="stylesheet">
+</head>
+<body class="body">
+	<div class="background">
+		<h1 class="title">Survey Form</h1>
+		<div class="main-div">
+			<p>Let us know how we can improve freeCodeCamp</p>
+			<form>
+			<div class="form-group">
+				<label id="name-label" for="name" class="label1">
+					*Name:
+				</label>
+				<input class="answer" type="text" name="name" id="name" placeholder="Enter your name" required autofocus>
+			</div>
+			<div class="form-group">
+				<label id="email-label" for="email" class="label1">
+					*Email:
+				</label>
+				<input class="answer" type="email" name="email" id="email" placeholder="Enter your Email" required autofocus>
+			</div>
+			<div class="form-group">
+				<label id="age-label" for="age" class="label1">
+					*Age:
+				</label>
+				<input class="answer" type="number" name="age" id="age" placeholder="Age" required autofocus>
+			</div>
+			<div class="form-group">
+				<label id="role-label" for="role" class="label1">Which option best describes your current role?</label>
+				<select class="answer" name="role" id="role">
+					<option disabled value="select" selected>Select an option</option>
+					<option value="student">Student</option>
+					<option value="job">Full Time Job</option>
+					<option value="learner">Full Time Learner</option>
+					<option value="notSay">Prefer not to say</option>
+					<option value="other">Other</option>
+				</select>
+			</div>
+			<div class="form-group">
+				<label id="name-label" for="ratings" class="label1">
+					*How likely is that you would recommend freeCodeCamp to a friend?:
+				</label>
+				<ul class="answer" style="list-style: none;">
+					<li >
+						<label>
+							<input type="radio" name="ratings" value="1" required>
+							Definitely
+						</label>
+					</li>
+					<li>
+						<label>
+							<input type="radio" name="ratings" value="2" required>
+							Maybe
+						</label>
+					</li>
+					<li>
+						<label>
+							<input type="radio" name="ratings" value="3" required>
+							Not sure
+						</label>
+					</li>
+				</ul>
+			</div>
+			<div class="form-group">
+				<label id="fav-label" for="fav" class="label1">What do you like most in FCC:</label>
+				<select class="answer" name="fav" id="fav">
+					<option disabled value="select" selected>Select an option</option>
+					<option value="challenges">Challenges</option>
+					<option value="projects">Projects</option>
+					<option value="community">Community</option>
+					<option value="openSource">Open Source</option>
+				</select>
+			</div>
+			<div class="form-group">
+				<label id="features-label" for="features" class="label1">
+					Things that should be improved in the future(Check all that apply):
+				</label>
+				<ul class="answer" style="list-style: none;">
+					<li >
+						<label>
+							<input type="checkbox" name="features" value="1">
+							Front-end Projects
+						</label>
+					</li>
+					<li >
+						<label>
+							<input type="checkbox" name="features" value="2">
+							Back-end Projects
+						</label>
+					</li>
+					<li >
+						<label>
+							<input type="checkbox" name="features" value="3">
+							Data Visualisation
+						</label>
+					</li>
+					<li >
+						<label>
+							<input type="checkbox" name="features" value="4">
+							Challenges
+						</label>
+					</li>
+					<li >
+						<label>
+							<input type="checkbox" name="features" value="5">
+							Open Source Community
+						</label>
+					</li>
+					<li >
+						<label>
+							<input type="checkbox" name="features" value="6">
+							Gitter help rooms
+						</label>
+					</li>
+					<li >
+						<label>
+							<input type="checkbox" name="features" value="7">
+							Videos
+						</label>
+					</li>
+					<li >
+						<label>
+							<input type="checkbox" name="features" value="8">
+							City Meetups
+						</label>
+					</li>
+					<li >
+						<label>
+							<input type="checkbox" name="features" value="9">
+							Wiki
+						</label>
+					</li>
+					<li >
+						<label>
+							<input type="checkbox" name="features" value="10">
+							Forum
+						</label>
+					</li>
+					<li >
+						<label>
+							<input type="checkbox" name="features" value="1">
+							Additional Cources
+						</label>
+					</li>
+				</ul>
+			</div>
+			<div class="form-group">
+				<label id="comments-label" for="comments" class="label1">
+					Any Comments or Suggestions?
+				</label>
+				<textarea class="answer" id="comments" name="comments" placeholder="Enter your comment here..." style="height: 50px;resize: vertical;"></textarea>
+			</div>
+			<div>
+				<button id="submit" type="submit" class="btn btn-primary">Submit</button>
+			</div>
+			</form>
+		</div>
+	</div>
+</body>
+</html>

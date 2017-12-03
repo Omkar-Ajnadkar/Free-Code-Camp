@@ -1,0 +1,31 @@
+#mainDiv{
+	width: 300px;
+	margin: 200px auto 200px auto;
+}
+.btn{
+	width: 70px;
+	padding: 5px;
+	margin: 5px;
+}
+#zero{
+	width:150px;
+}
+#displayBox{
+	width: 100%;
+	height: 100px;
+	margin: 10px 15px 10px 15px;
+	border: 2px solid #b4b39d;
+	border-radius: 6px;
+	background-color: #c3c2ab;
+}
+#current{
+	font-size: 40px;
+	margin: 5px;
+	text-align: right;
+}
+#complete{
+	font-size: 20px;
+	margin: 5px;
+	color: gray;
+	text-align: right;
+}
